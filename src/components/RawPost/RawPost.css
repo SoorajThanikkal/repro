@@ -1,0 +1,40 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.posters img{
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+.posters img:hover{
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset, rgb(255, 255, 255) 0px 0px 0px 1px;
+    transition: 100ms;
+}
+
+.smallPoster{
+    cursor: pointer;
+    max-height: 150px !important;
+    margin-right: 10px !important;
+    border-radius: 10px;
+}
+.smallPoster:hover{
+    transform: scale(1.1) !important;
+    margin: 20px 25px 0px 25px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: 200ms;
+}
